@@ -71,6 +71,15 @@ p {
     margin: 0 auto;
 }
 
+@keyframes change-color{
+    0% {background-color: blue};
+    20% {background-color: purple};
+    40% {background-color: green};
+    60% {background-color: yellow};
+    80% {background-color: orange};
+    100% {background-color: red};
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -94,6 +103,8 @@ header nav a{
 
 header nav a:hover{
     text-decoration: underline;
+    animation-name: change-color;
+    animation-duration: 10s;
 }
 
 header nav a:first-child{
