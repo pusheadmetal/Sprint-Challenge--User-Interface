@@ -108,103 +108,91 @@ header .logo{
     margin: 25px 0px 50px 0px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.top-content{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-}
-
-.top-content .top-img{
-    margin-bottom: 25px;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    margin: 30px;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.middle-content .middle-img{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
+.middle-content .middle-headings{
+    display: flex;
+}
+
+.middle-content h2{
+    padding: 0 2%;
+    margin: 15px 0px 0px 5px;
+    width: 383px;
+}
+
+.middle-content .big-mid-text-container{
+    width: 800px;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
-.boxes .box:nth-child(1){
-    background: teal;
-}
-
-.boxes .box:nth-child(2){
-    background: gold;
-}
-
-.boxes .box:nth-child(3){
-    background: cadetblue;
-}
-
-.boxes .box:nth-child(4){
-    background: coral;
-}
-
-.boxes .box:nth-child(5){
-    background: crimson;
-}
-
-.boxes .box:nth-child(6){
-    background: forestgreen;
-}
-
-.boxes .box:nth-child(7){
-    background: darkorchid;
-}
-
-.boxes .box:nth-child(8){
-    background: hotpink;
-}
-
-.boxes .box:nth-child(9){
-    background: indigo;
-}
-
-.boxes .box:nth-child(10){
-    background: dodgerblue;
-}
-
-.bottom-content {
+.big-mid-text-container .little-mid-text-container{
+    width: 390px;
+    height: 100px;
+    margin-top: 5px;
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+button{
+    border-radius: 15%;
+    background-color: white;
+    border: 2px solid black;
+    width: 100px;
+    margin-bottom: 10px;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+
+
+.bottom-content .bottom-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-content .bottom-headings{
+    display: flex;
+}
+
+.bottom-content h2{
+    padding: 0 2%;
+    margin: 15px 0px 0px 5px;
+    width: 383px;
+}
+
+.bottom-content .big-bottom-text-container{
+    width: 800px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    
+}
+
+.big-bottom-text-container .little-bottom-text-container{
+    width: 390px;
+    height: 100px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+}
+
+.afterword{
+    margin: 30px;
 }
 
 footer {
